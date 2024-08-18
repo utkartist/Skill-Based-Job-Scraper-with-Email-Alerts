@@ -74,6 +74,7 @@ The --wait_time argument sets the interval between scraping iterations in minute
 
 When prompted, input the number of skills you want to filter out.
 Enter each skill one by one.
+
 ### Check Saved Jobs:
 
 
@@ -84,6 +85,7 @@ A summary of each scraping session will be appended to summary.txt.
 
 
 Set your Outlook email address and password in the EMAIL_ADDRESS and EMAIL_PASSWORD variables within the script.
+
 Set the recipient’s email address in the TO_EMAIL variable.
 
 ### Skill Filtering:
@@ -106,10 +108,13 @@ Use this tool responsibly to avoid potential issues with your email account.
 
 ## Future Enhancements:
 **Support for Multiple Job Portals:**
+
 Extend the scraper to work with additional job websites.
 **GUI Interface:**
+
 Develop a simple graphical user interface to make the tool more user-friendly.
 **Advanced Filtering:**
+
 Add more sophisticated filtering options, such as filtering by job location, salary range, etc.
 ## Contributing:
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
