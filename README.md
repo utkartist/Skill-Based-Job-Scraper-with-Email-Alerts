@@ -62,6 +62,7 @@ This project is designed to streamline the job search process by automatically w
 
 ## Setup and Installation
 1. **Clone the Repository:**
+
    
    ```bash
    git clone https://github.com/utkartist/job-scraper.git
@@ -69,19 +70,23 @@ This project is designed to streamline the job search process by automatically w
 python job_scraper.py --wait_time 10
 The --wait_time argument sets the interval between scraping iterations in minutes.
 
-### Input Skills to Filter:
+
+**Input Skills to Filter:**
+
 
 
 When prompted, input the number of skills you want to filter out.
 Enter each skill one by one.
 
-### Check Saved Jobs:
+**Check Saved Jobs:**
+
 
 
 Job details will be saved in the posts/ directory as both .json and .csv files.
 A summary of each scraping session will be appended to summary.txt.
 
-### Email Configuration:
+**Email Configuration:**
+
 
 
 Set your Outlook email address and password in the EMAIL_ADDRESS and EMAIL_PASSWORD variables within the script.
@@ -100,7 +105,7 @@ Use the --wait_time command-line argument to specify the interval (in minutes) b
 This script sends automated emails using your Outlook account. Please be cautious when setting up the script to avoid sending too many emails in a short period, as this could trigger Outlook’s spam detection mechanisms and result in your account being blocked or restricted.
 
 
-### To minimize the risk:
+**To minimize the risk:**
 
 Avoid setting very short intervals between scraping sessions.
 Ensure the recipient of the emails is aware of the frequency and content of the notifications.
@@ -110,9 +115,11 @@ Use this tool responsibly to avoid potential issues with your email account.
 **Support for Multiple Job Portals:**
 
 Extend the scraper to work with additional job websites.
+
 **GUI Interface:**
 
 Develop a simple graphical user interface to make the tool more user-friendly.
+
 **Advanced Filtering:**
 
 Add more sophisticated filtering options, such as filtering by job location, salary range, etc.
