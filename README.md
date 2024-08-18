@@ -7,7 +7,6 @@ This project is an automated web job scraper for the TimesJobs website, filterin
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup and Installation](#setup-and-installation)
-- [File Structure](#file-structure)
 - [Important Warning](#important-warning)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
@@ -78,15 +77,6 @@ Input the skills you want to avoid during the script execution when prompted.
 
 Use the --wait_time command-line argument to specify the interval (in minutes) between each scraping session.
 
-## File Structure:
-
-├── job_scraper.py         # Main script file
-├── posts/                 # Directory where job data is saved
-│   ├── jobs.csv           # CSV file containing job data
-│   └── [index].json       # JSON files containing job data
-├── summary.txt            # File where scraping session summaries are stored
-└── README.md              # Project documentation (this file)
-
 
 ## Important Warning:
 
@@ -95,13 +85,16 @@ This script sends automated emails using your Outlook account. Please be cautiou
 
 ### To minimize the risk:
 
-#### Avoid setting very short intervals between scraping sessions.
-#### Ensure the recipient of the emails is aware of the frequency and content of the notifications.
-#### Use this tool responsibly to avoid potential issues with your email account.
+Avoid setting very short intervals between scraping sessions.
+Ensure the recipient of the emails is aware of the frequency and content of the notifications.
+Use this tool responsibly to avoid potential issues with your email account.
 
 ## Future Enhancements:
-### Support for Multiple Job Portals: Extend the scraper to work with additional job websites.
-### GUI Interface: Develop a simple graphical user interface to make the tool more user-friendly.
-### Advanced Filtering: Add more sophisticated filtering options, such as filtering by job location, salary range, etc.
+### Support for Multiple Job Portals:
+Extend the scraper to work with additional job websites.
+### GUI Interface: 
+Develop a simple graphical user interface to make the tool more user-friendly.
+### Advanced Filtering: 
+Add more sophisticated filtering options, such as filtering by job location, salary range, etc.
 ## Contributing:
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
