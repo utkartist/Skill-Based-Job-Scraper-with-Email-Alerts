@@ -85,6 +85,7 @@ A summary of each scraping session will be appended to summary.txt.
 
 Set your Outlook email address and password in the EMAIL_ADDRESS and EMAIL_PASSWORD variables within the script.
 Set the recipient’s email address in the TO_EMAIL variable.
+
 ### Skill Filtering:
 
 Input the skills you want to avoid during the script execution when prompted.
@@ -104,11 +105,11 @@ Ensure the recipient of the emails is aware of the frequency and content of the 
 Use this tool responsibly to avoid potential issues with your email account.
 
 ## Future Enhancements:
-### Support for Multiple Job Portals:
+**Support for Multiple Job Portals:**
 Extend the scraper to work with additional job websites.
-### GUI Interface: 
+**GUI Interface:**
 Develop a simple graphical user interface to make the tool more user-friendly.
-### Advanced Filtering: 
+**Advanced Filtering:**
 Add more sophisticated filtering options, such as filtering by job location, salary range, etc.
 ## Contributing:
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
