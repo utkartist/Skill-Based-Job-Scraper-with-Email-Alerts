@@ -15,36 +15,50 @@ This project is an automated web job scraper for the TimesJobs website, filterin
 This project is designed to streamline the job search process by automatically web scraping job listings from the TimesJobs website, filtering out positions that require specific skills, and sending email notifications for jobs that match the user’s preferences. The job details are saved in both CSV and JSON formats for easy access and analysis.
 
 ## Features
+
 - **Skill-Based Filtering:**
-- Filter out jobs that require specified skills you want to avoid.
+  - Filter out jobs that require specified skills you want to avoid.
+
 - **Automated Email Notifications:**
-- Receive email alerts for jobs that match your criteria.
+  - Receive email alerts for jobs that match your criteria.
+
 - **Data Persistence:**
-- Save job details in CSV and JSON formats for easy tracking.
+  - Save job details in CSV and JSON formats for easy tracking.
+
 - **Customizable Scraping Interval:**
-- Configure the wait time between scraping iterations to suit your needs.
+  - Configure the wait time between scraping iterations to suit your needs.
+
 - **Error Handling:**
-- Includes robust error handling for email sending and data scraping processes.
+  - Includes robust error handling for email sending and data scraping processes.
+
 - **Session Summaries:**
-- Each scraping session generates a summary, logged in a `summary.txt` file, for easy review of the scraping results.
+  - Each scraping session generates a summary, logged in a `summary.txt` file, for easy review of the scraping results.
 
 ## Tech Stack
+
 - **Python:**
-- Core programming language used for the project.
+  - Core programming language used for the project.
+
 - **BeautifulSoup:**
-- Library used for web scraping and parsing HTML.
+  - Library used for web scraping and parsing HTML.
+
 - **Requests:**
-- Library for making HTTP requests to retrieve web pages.
+  - Library for making HTTP requests to retrieve web pages.
+
 - **SMTP (smtplib):**
-- Used for sending automated emails through Outlook.
+  - Used for sending automated emails through Outlook.
+
 - **CSV:**
-- Built-in Python library for saving data in CSV format.
+  - Built-in Python library for saving data in CSV format.
+
 - **JSON:**
-- Built-in Python library for saving data in JSON format.
+  - Built-in Python library for saving data in JSON format.
+
 - **argparse:**
-- Library for command-line argument parsing to customize scraping intervals.
+  - Library for command-line argument parsing to customize scraping intervals.
+
 - **OS:**
-- Used for file management and directory creation.
+  - Used for file management and directory creation.
 
 ## Setup and Installation
 1. **Clone the Repository:**
